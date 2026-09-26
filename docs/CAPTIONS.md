@@ -1,0 +1,27 @@
+# Figure captions
+
+## Figure 1
+
+CT-referenced workflow and measurement geometry. Grid coordinates are independently detected from native phantom images; report values do not enter the analysis. Each MRI is rigidly aligned to the measured CT using 91 central nodes, selected by a nominal lattice radius of 30 mm. Residual displacement is evaluated at the remaining 757 common nodes. The 3D view shows measured, centred CT coordinates for P02. The nominal lattice assigns correspondence and radius only; it is not a replacement for measured CT or the manufacturer CAD reference.
+
+## Figure 2
+
+Protocol-specific CT-referenced residuals for seven original–corrected MRI pairs. Each box contains the same 757 held-out nodes within its protocol: median, interquartile range and 5th–95th percentile whiskers (points outside whiskers are not displayed). Panel B shows P95 before and after correction; labels give ΔP95 = P95(corrected) − P95(original), in mm. Quantiles use NumPy linear interpolation. Separate rigid fits remove central rigid misalignment from each series. Nodes are spatially dependent and are not independent acquisition replicates; no pooled significance test is implied.
+
+## Figure 3
+
+Descriptive comparison of aggregate residual metrics from the independent calculation and CT-referenced manufacturer reports across all 16 eligible MRI series (O: original; C: corrected). Series and row order are identical in both panels. Independent calculations use 757 held-out nodes after central rigid alignment; reports contain 858 nodes with unmatched identities and a different analysis convention. Therefore, connecting lines show aggregate differences, not nodewise agreement or equivalence. Report values were recovered from vector graphics and checked against printed report summaries. The two largest mean differences occur in the P08 and P09 original series.
+
+## Figure 4
+
+Technical verification and parameter sensitivity. A: Original MRI volumes were translated by (+0.35, −0.45, +0.25) mm in LPS using cubic interpolation, followed by landmark redetection. P95 recovery error was below 0.094 mm in all nine protocols; maxima reached 1.789 mm, illustrating the need to inspect rare localization/correspondence outliers. These tests assess numerical equivariance, not absolute physical accuracy. B: For P08, the mean corrected residual remained below the original residual at detection σ values of 1.2, 1.4 and 1.6 mm (second DoG scale fixed at 3.5 mm). Sensitivity analyses do not resolve the remaining report discrepancy.
+
+## Figure S1
+
+Report-derived residual distributions for each protocol against the planning CT and manufacturer CAD references. Boxes show median and interquartile range, with 5th–95th percentile whiskers; CT reports contain 858 nodes, CAD reports 859. Original and corrected panels retain identical protocol order; missing corrected acquisitions remain explicitly visible. These are report-derived distributions, not independent CAD measurements. Similarity of their summaries does not demonstrate interchangeability, which would require matched coordinates and a prespecified equivalence margin.
+
+## Figure S2
+
+Synthetic illustration of size-dependent geometric overlap. Two spheres with identical radius R and centre separation d have overlap fraction 1 − 3d/(4R) + d³/(16R³) for 0 ≤ d ≤ 2R, and zero beyond. Curves show chosen displacements of 0.5, 1 and 2 mm; the diagram is a 2D section of the 3D model. This idealized geometric quantity is not measured target coverage, a dose-volume metric, or evidence of clinical benefit. No patient structures or observed patient displacements were used.
+
+Plots were created using conventional numerical analysis and Matplotlib with AI-assisted code development. No generative image model was used. The authors must verify and disclose assistance according to the journal policy.

@@ -1,0 +1,15 @@
+{
+  "docs/captions.json": "7a98562da71278b70c28f3d33d2b36728e6298531cfaed5858967e00cbf21c1c",
+  "docs/RELEASE_VALIDATION.json": "cacec4c2342e1ef8710a3f4503c8f29c1ac84cda6d82ddf421f151b22a529aa5",
+  "docs/result_summary.json": "8e55e7b0d67bd217c5a4dc2ac321fe98af322fd8884a6f9b40c7d441b374f46b",
+  "supplement/Table_S1_All_series.csv": "677f2742f955efb11e1e07ac6586b285f996158fa718fd93485937da1eb6d2fe",
+  "supplement/Table_S2_Coverage.csv": "acc875c28f9a799a082e69bdb62cf11e4d7800d38f58a36d75abed2a949c430f",
+  "tables/Table_1_Acquisitions.csv": "5d67d19d2ec03f5b174e06614ebfe62533c350d06e7e9fe5218f0c3a6cdf4413",
+  "tables/Table_2_Paired_results.csv": "600dc089d5511e615db46274c86fce9fd2b279f44dc0c14696058196559a24f8",
+  "tables/Table_3_Verification.csv": "b3bd8462b9c21a2d85e17e3db07e33eaaa2d5f5f1d436ffd1338943294b84b7b",
+  "mr_distortion_phantom/data/expected_metrics.json": "1158015b129e6393391e6cfa536c337e275dd1d12bd4b5dcfd78905655e97ac8",
+  "mr_distortion_phantom/data/landmarks.csv": "13b721761c07502a64c4800512486314758cf817d2751df4c956ea6491d698eb",
+  "mr_distortion_phantom/data/protocols.json": "5b68015ac596f74e5c36040f1606a3edeb2dafaf8fb44972459a165310d88b56",
+  "mr_distortion_phantom/data/report_distributions.json": "0407f7f22d3ad95f49a87185b742148a47c45600f32a96f067a1d3fdd67e3b11",
+  "mr_distortion_phantom/data/technical_validation.json": "92eadd495ee7daabd40beae7d017c5c8bf3e0953b971283af5e3bb1491fbfa94"
+}

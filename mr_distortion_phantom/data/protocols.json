@@ -1,0 +1,146 @@
+[
+  {
+    "protocol": "P01",
+    "scanner": "S1",
+    "manufacturer": "Siemens",
+    "field_T": 1.5,
+    "TR_ms": 1800.0,
+    "TE_ms": 3.2,
+    "bandwidth_Hz_px": 170.0,
+    "voxel_mm": [
+      1.000003003317939,
+      0.898438,
+      0.898438
+    ],
+    "paired": true,
+    "variant": "scanner-correction-labelled"
+  },
+  {
+    "protocol": "P02",
+    "scanner": "S1",
+    "manufacturer": "Siemens",
+    "field_T": 1.5,
+    "TR_ms": 1800.0,
+    "TE_ms": 3.2,
+    "bandwidth_Hz_px": 170.0,
+    "voxel_mm": [
+      1.000003003317939,
+      0.898438,
+      0.898438
+    ],
+    "paired": true,
+    "variant": "default-labelled"
+  },
+  {
+    "protocol": "P03",
+    "scanner": "S2",
+    "manufacturer": "Philips",
+    "field_T": 1.5,
+    "TR_ms": 7.58669996261597,
+    "TE_ms": 3.46069979667664,
+    "bandwidth_Hz_px": 216.604949951172,
+    "voxel_mm": [
+      1.0000006808452102,
+      0.9765625,
+      0.9765625
+    ],
+    "paired": true,
+    "variant": "default-labelled"
+  },
+  {
+    "protocol": "P04",
+    "scanner": "S2",
+    "manufacturer": "Philips",
+    "field_T": 1.5,
+    "TR_ms": 7.58669996261597,
+    "TE_ms": 3.46069979667664,
+    "bandwidth_Hz_px": 216.604949951172,
+    "voxel_mm": [
+      1.0000006808452102,
+      0.9765625,
+      0.9765625
+    ],
+    "paired": true,
+    "variant": "scanner-correction-labelled"
+  },
+  {
+    "protocol": "P05",
+    "scanner": "S3",
+    "manufacturer": "Siemens",
+    "field_T": 1.5,
+    "TR_ms": 1590.0,
+    "TE_ms": 2.99,
+    "bandwidth_Hz_px": 160.0,
+    "voxel_mm": [
+      0.9999984697072373,
+      0.9375,
+      0.9375
+    ],
+    "paired": false,
+    "variant": "default-labelled"
+  },
+  {
+    "protocol": "P06",
+    "scanner": "S3",
+    "manufacturer": "Siemens",
+    "field_T": 1.5,
+    "TR_ms": 1590.0,
+    "TE_ms": 2.99,
+    "bandwidth_Hz_px": 160.0,
+    "voxel_mm": [
+      0.9999984697072373,
+      0.9375,
+      0.9375
+    ],
+    "paired": false,
+    "variant": "scanner-correction-labelled"
+  },
+  {
+    "protocol": "P07",
+    "scanner": "S4",
+    "manufacturer": "Siemens",
+    "field_T": 1.5,
+    "TR_ms": 2200.0,
+    "TE_ms": 3.02,
+    "bandwidth_Hz_px": 160.0,
+    "voxel_mm": [
+      0.9999999357737122,
+      0.976562,
+      0.976562
+    ],
+    "paired": true,
+    "variant": "default-labelled"
+  },
+  {
+    "protocol": "P08",
+    "scanner": "S5",
+    "manufacturer": "Philips",
+    "field_T": 3.0,
+    "TR_ms": 8.97340011596679,
+    "TE_ms": 4.183,
+    "bandwidth_Hz_px": 191.0,
+    "voxel_mm": [
+      1.0000014321561597,
+      0.9375,
+      0.9375
+    ],
+    "paired": true,
+    "variant": "default-labelled"
+  },
+  {
+    "protocol": "P09",
+    "scanner": "S5",
+    "manufacturer": "Philips",
+    "field_T": 3.0,
+    "TR_ms": 8.97340011596679,
+    "TE_ms": 4.183,
+    "bandwidth_Hz_px": 191.0,
+    "voxel_mm": [
+      1.0000014321561597,
+      0.9375,
+      0.9375
+    ],
+    "paired": true,
+    "variant": "scanner-correction-labelled"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "release": "0.1.0",
+  "scope": "Physical phantom and synthetic geometry only",
+  "patient_data_included": false,
+  "landmark_rows": 13568,
+  "series": 16,
+  "unit_tests": 4,
+  "coordinate_regression_tolerance_mm": 1e-09,
+  "raw_DICOM_port_check": {
+    "protocol": "P02",
+    "n_evaluation": 757,
+    "states": 2,
+    "passed": true
+  },
+  "runtime": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pydicom": "2.4.5",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.2.0"
+  },
+  "archived_image_translation_tests": 9,
+  "translation_P95_below_mm": 0.094,
+  "translation_max_mm": 1.7885781899663424,
+  "not_demonstrated": [
+    "physical absolute accuracy",
+    "repeatability",
+    "vendor equivalence",
+    "clinical outcome or dose benefit"
+  ]
+}

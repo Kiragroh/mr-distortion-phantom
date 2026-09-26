@@ -1,0 +1,8 @@
+**Table 3 Verification.** Verification layers and their scope. Repeated/repositioned acquisitions and independent physical ground truth are not available in this dataset.
+
+| Test | Scope | Result | Interpretation |
+| --- | --- | --- | --- |
+| Public coordinate reproduction | 16 series × 848 nodes | All summary metrics reproduced within 1e-9 mm | Checks numeric reproducibility, not new accuracy evidence |
+| Known voxel translations | 9 original MRI volumes | P95 0.081–0.093 mm; maximum 1.789 mm | Interpolation / localization / correspondence test |
+| Detector sensitivity | P08; σ 1.2–1.6 mm | Mean reduction 0.119–0.128 mm | One-protocol sensitivity only |
+| Independent vs report mean | 16 unmatched-node comparisons | 14 absolute differences <0.036 mm; two ≈0.105 mm | Descriptive comparison; no equivalence claim |
